@@ -144,3 +144,32 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+# DEV NOTES
+**FOLLOW THIS ONLINE VIDEO FOR ADDITIONAL HELP
+https://www.youtube.com/watch?v=Mvl2LpVSL0I&t=678s
+
+HOW TO INSTALL/SETUP STENCIL:
+https://developer.bigcommerce.com/stencil-docs/ZG9jOjIyMDcwMA-installing-stencil-cli
+-Open PowerShell as ADMIN
+-Install chocolatey
+-CLOSE AND REOPEN POWERSHELL AS ADMIN
+-Install git
+-CLOSE AND REOPEN POWERSHELL AS ADMIN
+-follow the rest of the instructions
+
+-Go to BigCommerces.com and long in as the store owner
+-Open an API Account (under a local repository to avoid altering the main site)
+-Copy and save the terminal quick start
+-Go to themes and find "Cornerstone"
+-Copy the original under a new name and then download the template
+-Go to you path and extract the downloaded folder into the directory
+-open the directory in PowerShell
+-copy/paste the terminal quickstart
+-type "npm install" while in the directory
+-type "stencil start" after install
+
+
+Once the stencil has started you can you view the website via localhost:3000 (could be any number you put in the standard is 3000, check the terminal)
+
+
